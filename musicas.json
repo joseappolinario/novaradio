@@ -1,0 +1,7 @@
+{
+    "musicas": [
+        { "artista": "Artista 1", "titulo": "Música 1" },
+        { "artista": "Artista 2", "titulo": "Música 2" },
+        { "artista": "Artista 3", "titulo": "Música 3" }
+    ]
+}

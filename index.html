@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://ufpr.br/wp-content/uploads/2022/12/logo_branca_ufpr-1024x613.png"  class="img"  alt="">
+        <h1>Rádio Online</h1>
+    </header>
+    <main>
+        <section id="player">
+            <h2>Ao Vivo</h2>
+            <audio controls>
+                <source src="http://200.238.189.3:8000/matias" type="audio/aac">
+
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+        <section id="musicas">
+            <h2>Lista de Músicas Tocadas</h2>
+            <ul id="lista-musicas"></ul>
+        </section>
+      
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

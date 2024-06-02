@@ -1,0 +1,96 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #6594f1;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do contêiner principal */
+main {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: rgb(86, 83, 235);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da seção do player */
+#player {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+audio {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Estilo da seção de músicas */
+#musicas {
+    margin-top: 2rem;
+}
+
+#musicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
+
+#musicas li {
+    background-color: #f9f9f9;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s;
+}
+
+#musicas li:hover {
+    background-color: #db1616;
+}
+
+#musicas li span {
+    font-weight: bold;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 600px) {
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+}
